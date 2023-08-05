@@ -2,12 +2,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
+    /*CONFIGS PARA TABLETS*/
+
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
         width: 90%;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -24,12 +27,15 @@
 
 @media screen and (min-width: 992px) {
 
+    /*CONFIGS PARA TELAS GRANDES*/
+
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login {
         width: 990px;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -47,6 +53,6 @@
     }
     
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
