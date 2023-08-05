@@ -33,7 +33,7 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-    background-color: white;
+    background-color: #EBFAF7;
     width: 308px;
     height: 500px;
     border-radius: 20px;
@@ -81,6 +81,22 @@ div#formulario > p {
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+}
+
+.campo > i {
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input {
+    background-color: #e4f1f18c;
+    font-size: 1em;
+    width: calc(100% - 50px);
+    height: 100%;
+    transform: translateY(-10px);
+    border-radius: 8px;
+    padding: 4px;
 }
 
 input[type=submit] {
